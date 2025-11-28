@@ -58,3 +58,75 @@ python netflix_analysis.py
    - Save `netflix_analysis.png` with all visualizations
 
 ## 📁 Project Structure
+NetflixAnalysis/
+│
+├── netflix_analysis.py      # Main analysis script
+├── netflix_titles.csv       # Dataset (8,807 titles)
+├── netflix_analysis.png     # Generated visualization dashboard
+├── requirements.txt         # Python dependencies
+├── .gitignore              # Git ignore file
+└── README.md               # This file
+
+Visualizations Generated
+The script creates a comprehensive dashboard with 9 visualizations:
+Content Type Distribution - Pie chart showing Movies vs TV Shows
+Top 10 Genres - Horizontal bar chart of most popular genres
+Releases Over Time - Line chart showing content release trends
+Content Added to Netflix - Timeline of when content was added
+Runtime Distribution - Histogram of movie runtimes
+Average Runtime by Decade - Bar chart showing runtime trends
+Top 10 Content Ratings - Distribution of content ratings
+Movies vs TV Shows Over Time - Comparison of content types
+Runtime Distribution by Category - Categorized runtime analysis
+🛠️ Technologies Used
+Pandas - Data manipulation and analysis
+NumPy - Numerical computing
+Matplotlib - Data visualization
+Seaborn - Statistical data visualization
+📝 Data Cleaning Steps
+Duplicate Removal: Removed entries with identical title and release year
+Missing Ratings: Filled missing ratings with 'Not Rated'
+Runtime Extraction: Parsed duration strings to extract minutes for movies
+Date Conversion: Converted date_added to datetime format
+Genre Processing: Split comma-separated genre lists for analysis
+📊 Dataset Information
+Source: Kaggle (public dataset)
+Total Records: 8,807 titles
+Time Range: 1925 - 2021
+Columns: 12 (show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, description)
+🎓 Skills Demonstrated
+✅ Data cleaning and preprocessing
+✅ Exploratory data analysis (EDA)
+✅ Statistical analysis
+✅ Data visualization
+✅ Pattern identification
+✅ Data storytelling
+✅ Python programming
+✅ Pandas data manipulation
+📸 Sample Output
+After running the script, you'll see:
+Detailed console output with analysis progress
+Statistical summaries of key metrics
+6 key insights automatically generated
+A high-resolution PNG file (netflix_analysis.png) with all visualizations
+🤝 Contributing
+Contributions are welcome! Feel free to:
+Report bugs
+Suggest new features
+Submit pull requests
+Improve documentation
+📄 License
+This project is open source and available under the MIT License.
+👤 Author
+Eveliox
+GitHub: @Eveliox
+Project Link: https://github.com/Eveliox/NetflixAnalysis
+🙏 Acknowledgments
+Dataset source: Kaggle Netflix Dataset
+Python community for excellent data science libraries
+Netflix for providing public data
+📚 Additional Resources
+Pandas Documentation
+Matplotlib Documentation
+Seaborn Documentation
+
